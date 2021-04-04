@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210325
 RUN apt-get update && \
 	apt-get install megatools -y
 RUN apt-get -y autoremove && \
